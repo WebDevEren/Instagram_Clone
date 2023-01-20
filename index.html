@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="tr" class="w-100">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2644129145.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <title>Instagram.com</title>
+</head>
+
+<body class="bg-white w-100">
+    <section class="w-100">
+        <div class="row">
+            <!-- left-bar -->
+            <div class="col-2 p-4 border-end position-sticky top-0 start-0" style="height: 97vh;">
+                <div class="img-div mb-4 p-1 ms-1">
+                    <img src="img/logo.png" alt="" width="100">
+                </div>
+                <div class="list-group list-group-flush ms-1 mb-4">
+                    <h5 class="mb-3 list-group-item-action p-2">
+                        <a href="#" class="text-decoration-none text-black  ">
+                            <i class="fa-solid fa-house me-2"></i> <span class="fw-bold"
+                                style="font-size: 17px; vertical-align:top">Ana Sayfa</span>
+                        </a>
+                    </h5>
+                    <h5 class="mb-3 list-group-item-action p-2">
+                        <a href="#" class="text-decoration-none text-black">
+                            <i class="fa-solid fa-magnifying-glass me-2"></i> <span class="fw-normal"
+                                style="font-size: 17px; vertical-align:top">Ara</span>
+                        </a>
+                    </h5>
+                    <h5 class="mb-3 list-group-item-action p-2">
+                        <a href="#" class="text-decoration-none text-black">
+                            <i class="fa-regular fa-compass me-2"></i> <span class="fw-normal"
+                                style="font-size: 17px; vertical-align:top">Keşfet</span>
+                        </a>
+                    </h5>
+                    <h5 class="mb-3 list-group-item-action p-2">
+                        <a href="#" class="text-decoration-none text-black">
+                            <i class="fa-solid fa-film me-2"></i> <span class="fw-normal"
+                                style="font-size: 17px; vertical-align:top;">Reels</span>
+                        </a>
+                    </h5>
+                    <h5 class="mb-3 list-group-item-action p-2">
+                        <a href="#" class="text-decoration-none text-black">
+                            <i class="fa-brands fa-facebook-messenger me-2"></i> <span class="fw-normal"
+                                style="font-size: 17px; vertical-align:top;">
+                                Mesajlar</span>
+                        </a>
+                    </h5>
+                    <h5 class="mb-3 list-group-item-action p-2">
+                        <a href="#" class="text-decoration-none text-black">
+                            <i class="fa-regular fa-heart me-2"></i> <span class="fw-normal"
+                                style="font-size: 17px; vertical-align:top;">
+                                Bildirimler</span>
+                        </a>
+                    </h5>
+                    <h5 class="mb-2 list-group-item-action p-2">
+                        <a href="#" class="text-decoration-none text-black">
+                            <i class="fa-regular fa-square-plus me-2"></i> <span class="fw-normal"
+                                style="font-size: 17px; vertical-align:top;">
+                                Oluştur</span>
+                        </a>
+                    </h5>
+                    <h5 class="mb-3 list-group-item-action p-2">
+                        <a href="#" class="text-decoration-none text-black">
+                            <img src="img/ecenaz.jpg" alt="" class="rounded-circle me-2" style="width: 24px;">
+                            <span class="fw-normal" style="font-size: 15px;">
+                                Profil</span>
+                        </a>
+                    </h5>
+                </div>
+                <div class="dropup dropdown-center">
+                    <button type="button" class="btn" data-bs-toggle="dropdown" data-bs-target="#show">
+                        <i class="fa-solid fa-bars me-2" style="font-size: 23px;"></i> <span class="fw-normal"
+                            style="font-size: 17px; vertical-align: top;">Daha
+                            Fazla</span>
+                    </button>
+                    <ul class="dropdown-menu py-3" id="show" style="width: 250px;">
+                        <li>
+                            <a href="#" class="dropdown-item">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span>Ayarlar</span>
+                                    <i class="fa-solid fa-gear" style="font-size: 23px;"></i>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span>Kaydedilenler</span>
+                                    <i class="fa-solid fa-bookmark" style="font-size: 23px;"></i>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span>Görünümü Değiştir</span>
+                                    <i class="fa-solid fa-moon" style="font-size: 25px;"></i>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span>Hareketlerin</span>
+                                    <i class="fa-solid fa-clock" style="font-size: 23px;"></i>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span>Bir sorun bildir</span>
+                                    <i class="fa-sharp fa-solid fa-triangle-exclamation" style="font-size: 23px;"></i>
+                                </div>
+                            </a>
+                        </li>
+                        <li style="border-bottom: 6px solid rgb(238, 238, 238); margin:5px 0px;"></li>
+                        <li>
+                            <a href="#" class="dropdown-item">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span>Hesap Değiştir</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <span>Çıkış Yap</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- main-content -->
+            <div class="col-6 p-5" style="margin-left: 100px;">
+                <div class="container d-flex mb-3">
+                    <div>
+                        <div class="story me-3">
+                            <a href="#" class="text-decoration-none">
+                                <img src="img/p1.jpg" alt="" class="rounded-circle"
+                                    style="width: 60px; border: 2px solid rgba(128, 128, 128, 0.295); padding: 2px;">
+                                <p class="text-muted" style="font-size: 11px;">asudedmrb...</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="story me-3">
+                            <a href="#" class="text-decoration-none">
+                                <img src="img/198.jpg" alt="" class="rounded-circle"
+                                    style="width: 60px; border: 2px solid rgba(128, 128, 128, 0.295); padding: 2px;">
+                                <p class="text-muted" style="font-size: 11px;">muharremk</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="story me-3">
+                            <a href="#" class="text-decoration-none">
+                                <img src="img/istockphoto-1209654046-612x612.jpg" alt="" class="rounded-circle"
+                                    style="width: 60px; border: 2px solid rgba(128, 128, 128, 0.295); padding: 2px;">
+                                <p class="text-muted" style="font-size: 11px;">ekremiman..</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="story me-3">
+                            <a href="#" class="text-decoration-none">
+                                <img src="img/image6.png" alt="" class="rounded-circle"
+                                    style="width: 60px; border: 2px solid rgba(128, 128, 128, 0.295); padding: 2px;">
+                                <p class="text-muted" style="font-size: 11px;">nerimanito...</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="card mb-5" style="width: 90%;">
+                        <div class="card-header">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div>
+                                    <img src="img/yasin.jpg" alt="" class="rounded-circle me-2" style="width: 30px;">
+                                    <span class="">ekremimançocu</span>
+                                </div>
+                                <div>
+                                    <a href="#" class="text-dark">
+                                        <i class="fa-solid fa-circle-info"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <img src="img/p3.png" alt="" class="img-fluid mb-3" style="height: 500px;">
+                            <div class="d-flex align-items-center justify-content-between mb-1">
+                                <div>
+                                    <a href="#" class="text-dark text-decoration-none">
+                                        <i class="fa-regular fa-heart me-3" style="font-size: 23px;"></i>
+                                    </a>
+                                    <a href="#" class="text-dark text-decoration-none">
+                                        <i class="fa-regular fa-comment me-3" style="font-size: 23px;"></i>
+                                    </a>
+                                    <a href="#" class="text-dark text-decoration-none">
+                                        <i class="fa-regular fa-paper-plane" style="font-size: 23px;"></i>
+                                    </a>
+
+                                </div>
+                                <div>
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <i class="fa-sharp fa-solid fa-bookmark" style="font-size: 23px;"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <p style="margin: 3px 0px;">54 beğenme</p>
+                                <p class="text-secondary" style="font-size: 14px; margin:3px 0px;"><a href="#"
+                                        class="text-decoration-none text-secondary">10
+                                        yorumun tümünü
+                                        gör</a>
+                                </p>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <h6 class="mt-2">
+                                            ekremimançocu
+                                            <a href="#" class="text-decoration-none fw-normal"> @mansurfast</a>
+                                        </h6>
+                                        <h6 class="mt-2">
+                                            ekremimançocu
+                                            <a href="#" class="text-decoration-none fw-normal"> @receltahinersogan</a>
+                                        </h6>
+                                        <p class="fw-normal text-secondary" style="font-size: 14px;">Yorum ekle...</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="text-decoration-none text-secondary">
+                                            <i class="fa-regular fa-heart mb-2" style="font-size: 13px;"></i>
+                                        </a>
+                                        <br>
+                                        <a href="#" class="text-decoration-none text-secondary">
+                                            <i class="fa-regular fa-heart mb-2" style="font-size: 13px;"></i>
+                                        </a>
+                                        <br>
+                                        <a href="#" class="text-decoration-none text-secondary">
+                                            <i class="fa-regular fa-face-smile" style="font-size: 13px;"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-5" style="width: 90%;">
+                        <div class="card-header">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div>
+                                    <img src="img/p1.jpg" alt="" class="rounded-circle me-2" style="width: 30px;">
+                                    <span class="">asudedmrb</span>
+                                </div>
+                                <div>
+                                    <a href="#" class="text-dark">
+                                        <i class="fa-solid fa-circle-info"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <img src="img/sun.png" alt="" class="img-fluid w-100 mb-3" style="height: 500px;">
+                            <div class="d-flex align-items-center justify-content-between mb-1">
+                                <div>
+                                    <a href="#" class="text-danger text-decoration-none">
+                                        <i class="fa-regular fa-heart me-3 fw-bold" style="font-size: 23px;"></i>
+                                    </a>
+                                    <a href="#" class="text-dark text-decoration-none">
+                                        <i class="fa-regular fa-comment me-3" style="font-size: 23px;"></i>
+                                    </a>
+                                    <a href="#" class="text-dark text-decoration-none">
+                                        <i class="fa-regular fa-paper-plane" style="font-size: 23px;"></i>
+                                    </a>
+
+                                </div>
+                                <div>
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <i class="fa-sharp fa-solid fa-bookmark" style="font-size: 23px;"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <p>14 beğenme</p>
+                                </p>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <p class="fw-normal text-secondary" style="font-size: 14px;">Yorum ekle...</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="text-decoration-none text-secondary">
+                                            <i class="fa-regular fa-face-smile" style="font-size: 13px;"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 90%;">
+                        <div class="card-header">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div>
+                                    <img src="img/istockphoto-1209654046-612x612.jpg" alt="" class="rounded-circle me-2"
+                                        style="width: 30px;">
+                                    <span class="">muharremk</span>
+                                </div>
+                                <div>
+                                    <a href="#" class="text-dark">
+                                        <i class="fa-solid fa-circle-info"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <img src="img/moon.png" alt="" class="img-fluid mb-3 w-100" style="height: 500px;">
+                            <div class="d-flex align-items-center justify-content-between mb-1">
+                                <div>
+                                    <a href="#" class="text-danger text-decoration-none">
+                                        <i class="fa-regular fa-heart me-3 fw-bold" style="font-size: 23px;"></i>
+                                    </a>
+                                    <a href="#" class="text-dark text-decoration-none">
+                                        <i class="fa-regular fa-comment me-3" style="font-size: 23px;"></i>
+                                    </a>
+                                    <a href="#" class="text-dark text-decoration-none">
+                                        <i class="fa-regular fa-paper-plane" style="font-size: 23px;"></i>
+                                    </a>
+
+                                </div>
+                                <div>
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <i class="fa-sharp fa-solid fa-bookmark" style="font-size: 23px;"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <p style="margin: 3px 0px;">194 beğenme</p>
+                                <p class="text-secondary" style="font-size: 14px; margin:3px 0px;"><a href="#"
+                                        class="text-decoration-none text-secondary">83
+                                        yorumun tümünü
+                                        gör</a>
+                                </p>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <h6 class="mt-2">
+                                            muharremk
+                                            <a href="#" class="text-decoration-none fw-normal"> @_erenkara01</a>
+                                        </h6>
+                                        <h6 class="mt-2">
+                                            ekremimançocu
+                                            <a href="#" class="text-decoration-none fw-normal"> @elonmusk</a>
+                                        </h6>
+                                        <p class="fw-normal text-secondary" style="font-size: 14px;">Yorum ekle...</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="text-decoration-none text-secondary">
+                                            <i class="fa-regular fa-heart mb-2" style="font-size: 13px;"></i>
+                                        </a>
+                                        <br>
+                                        <a href="#" class="text-decoration-none text-secondary">
+                                            <i class="fa-regular fa-heart mb-2" style="font-size: 13px;"></i>
+                                        </a>
+                                        <br>
+                                        <a href="#" class="text-decoration-none text-secondary">
+                                            <i class="fa-regular fa-face-smile" style="font-size: 13px;"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- right-bar -->
+            <div class="col-3">
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-8">
+                            <img src="img/ecenaz.jpg" alt="" class="w-25 rounded-circle me-2">
+                            <span>q.ecenazz</span>
+                        </div>
+                        <div class="col-4">
+                            <a href="#" class="d-block mt-3 fw-bold text-decoration-none" style="font-size: 12px;">Geçiş
+                                Yap</a>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-8">
+                            <p class="text-secondary">Senin İçin Öneriler</p>
+                        </div>
+                        <div class="col-4">
+                            <p class="fw-bold text-dark" style="font-size: 12px;">
+                                <a href="#" class="text-decoration-none text-dark">Tümünü Gör</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8 mb-3">
+                            <img src="img/image1.png" alt="" width="35" class="me-2">
+                            <span>merve.dokunma</span>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <a href="#" class="text-decoration-none fw-bold d-block mt-1" style="font-size:12px;">Takip
+                                Et</a>
+                        </div>
+                        <div class="col-8 mb-3">
+                            <img src="img/image2.png" alt="" width="35" class="me-2">
+                            <span>cansu.kilicdar</span>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <a href="#" class="text-decoration-none fw-bold d-block mt-1" style="font-size:12px;">Takip
+                                Et</a>
+                        </div>
+                        <div class="col-8 mb-3">
+                            <img src="img/image3.png" alt="" width="35" class="me-2">
+                            <span>aleyna.ersoğan</span>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <a href="#" class="text-decoration-none fw-bold d-block mt-1" style="font-size:12px;">Takip
+                                Et</a>
+                        </div>
+                        <div class="col-8 mb-3">
+                            <img src="img/image4.png" alt="" width="35" class="me-2">
+                            <span>mustafa.kızoglanı</span>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <a href="#" class="text-decoration-none fw-bold d-block mt-1" style="font-size:12px;">Takip
+                                Et</a>
+                        </div>
+                        <div class="col-8 mb-3">
+                            <img src="img/image5.png" alt="" width="35" class="me-2">
+                            <span>UlviyEXNaZ</span>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <a href="#" class="text-decoration-none fw-bold d-block mt-1" style="font-size:12px;">Takip
+                                Et</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p>
+                                <a href="#" class="text-decoration-none d-block text-secondary"
+                                    style="font-size: 11px;">
+                                    Hakkında - Yardım - Basın - API - İş Fırsatları - Gizlilik - Kouşllar - Konumlar -
+                                    Dil
+                                </a>
+                            </p>
+                        </div>
+                        <div class="col-12">
+                            <p>
+                                <a href="#" class="text-decoration-none text-secondary" style="font-size: 13px;">
+                                    © 2023 INSTAGRAM FROM META
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
